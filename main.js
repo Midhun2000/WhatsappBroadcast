@@ -1,18 +1,21 @@
-const { app, BrowserWindow } = require ('electron')
+const path= require('path');
+const{ app,BrowserWindow } = require('electron');
 
-app.whenReady().then(() =>{
+function createMainwindow() {
 
-    const myWindow = new BrowserWindow(
+    const mainWindow = new BrowserWindow(
         {
-            width:800,
-            height:600,
-            webPreferences:{
-                nodeIntegration:true
-            }
+            title:"WhatsappBroadcast",
+            width:500,
+            height:600
         }
     );
-    
-   
-myWindow.loadFile('index.html');
 
-})
+        
+    mainWindow.loadFile(path.join(__dirname,'./renderer/index.html'));
+    
+}
+
+app.whenReady().then(()=>{
+    createMainwindow();
+});

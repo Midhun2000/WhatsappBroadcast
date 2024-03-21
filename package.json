@@ -1,16 +1,21 @@
 {
   "name": "wabroadcast",
+  "productName": "WaBroadcast",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start":"electron .",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^29.1.4"
+    "electron": "^29.1.5"
+  },
+  "dependencies": {
+    "express": "^5.0.0-beta.2",
+    "toastify-js": "^1.12.0"
   }
 }
