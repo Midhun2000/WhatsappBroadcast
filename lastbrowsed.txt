@@ -1,0 +1,9 @@
+https://www.interviewbit.com/mongodb-interview-questions/
+https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.
+https://www.toptal.com/javascript/asynchronous-javascript-programming#:~:text=JavaScript%20implements%20asynchronous%20functionality%20via%20a%20few%20key%20architectural%20components%3A&text=Anything%20that%20needs%20to%20run,per%20operation%20routed%20its%20way.
+https://jwt.io/introduction
+https://www.youtube.com/watch?v=DJpleAMQygY&list=PL8p2I9GklV46sT0RXw6PlMRVxJzEDUWuD&index=3
+https://www.youtube.com/watch?v=Ea2lWsumTrM
+https://app.visily.ai/projects/7828e28f-e501-4c48-be1c-185ae44c490b/boards/836098
+https://www.logicflow.ai/blog/angular-desktop-applications-with-electron
+https://chat.openai.com/c/77207c16-2b02-4fb9-9fad-b3f39c7c9705
