@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as XLSX from 'xlsx';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wabrodcastapp';
+
+
+
+  constructor(){
+
+  }
+
+
+  ReadExcel(){
+
+
+  }
+
+  
 }
