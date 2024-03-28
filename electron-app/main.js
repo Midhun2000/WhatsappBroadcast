@@ -2,6 +2,10 @@ const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
 
+
+app.commandLine.appendSwitch ("disable-http-cache");
+
+
 let mainWindow;
 
 function createWindow() {
